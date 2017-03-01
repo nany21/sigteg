@@ -1,0 +1,2230 @@
+/*Características del CSS3 del Sistema de Gestión de Trabajos Especiales de Grado (SGTEG)
+para las Menciones de Mercadeo, Comercio Exterior y Publicidad  del Departamento de Mercadeo
+de la U.P.T.P. "Luis Mariano Rivera". */
+
+
+/*******************************************ESTILOS GENERALES***********************************************/
+*{
+	margin: 0px; /*Para la eliminación de los margenes que los navegadores tienen por defecto*/
+	padding: 0px;
+ }
+
+body{
+		background-color:#F0EFED; /*Color de fondo*/
+}
+
+/*******************************************ESTILOS PARA BOTONES********************************************/
+.a  /************** BOTON SIN PRESIONAR NI PASAR EL MOUSE***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 150px 0px 0px 240px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a1  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 150px 0px 0px 0px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a1:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a1:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+
+.a2  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 268px 0px 0px 260px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a2:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a2:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a3  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 268px 0px 0px 0px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a3:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a3:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a4  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin:0px 0px 0px 150px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a4:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a4:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a5  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 0px 0px 0px 0px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a5:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a5:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a6  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin:80px 0px 0px 0px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a6:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a6:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a7  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 80px 0px 0px 0px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.a7:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a7:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a8  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin:110px 0px 0px 240px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+}
+
+.a8:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a8:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a9  /************** BOTO SIN PRESIONAR NI PASAR EL MOUSEN***************/
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 110px 0px 0px 0px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+}
+
+.a9:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a9:active /***************AL PRESIONAR EL BOTON***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+
+.a_leer /***************BOTON SIN PRESIONAR NI PASAR EL MOUSE***************/ 
+{
+	width:80px;
+	height: 30px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 268px 0px 0px 0px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 2px 4px 2px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+	text-align:center;
+	float:left;
+}
+
+.a_leer:hover /***************BOTON AL PASAR EL MOUSE***************/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a_leer:active /***************AL PRESIONAR EL BOTON*/************** 
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+.a_leer2
+{
+	width:80px;
+	height: 20px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	margin: 30px 0px 0px 5px;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 3px 4px 3px rgba(0,0,0,.6);
+	border-bottom:1px solid #8b8b8b;
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+	text-align:center;
+	float:left;
+}
+
+.a_leer2:hover
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.a_leer2:active /*AL PRESIONAR EL BOTON*/
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+/*******************************************ESTILOS PARA ÍCONOS********************************************/
+
+a span
+{
+	list-style:none;
+	text-decoration:none;
+	position:relative;
+}
+
+/*******************************************ESTILOS PARA EL BANNER********************************************/
+.banner
+{
+	height: 170px;
+	width: 990px;
+	padding: 0px;
+	background-image: url("../imagenes/baner.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:990px 170px;
+	opacity:0.8;
+}
+
+/*******************************************ESTILOS PARA REFERENCIAS********************************************/
+.blockquote_large
+{
+	margin:20px 120px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:rgba(150,10,20,0.9);
+	font-size:20px;
+	text-align:justify;
+}
+
+/*****************************************ESTILOS PARA AUTORES DE CITAS*****************************************/
+.cite{
+		margin: 0px 0px 0px 60px;
+		font-family:"Times New Roman",Helvetica, sans-serif;
+		color:#797979;
+}
+
+/**********************************ESTILOS PARA EL CONTACTO CON EL TECNICO**************************************/
+.contacto
+{
+	width:540px;
+	height: 273px;
+	margin: 250px auto;
+	display:block;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/**************************************ESTILOS PARA FORMULARIOS DE BÚSQUEDA*************************************/
+.form_bus
+{
+	width:610px;
+	height: 213px;
+	margin: 250px auto;
+	display:block;
+	border-radius:20px 20px 20px 20px;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/**************************************ESTILOS PARA FORMULARIOS DE BÚSQUEDA*************************************/
+.form_bus2
+{
+	width:640px;
+	height: 213px;
+	margin: 250px auto;
+	display:block;
+	border-radius:20px 20px 20px 20px;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/**************************************ESTILOS PARA FORMULARIOS DE BÚSQUEDA*************************************/
+.form_bus3
+{
+	width:800px;
+	height: 213px;
+	margin: 250px auto;
+	display:block;
+	border-radius:20px 20px 20px 20px;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/**************************************ESTILOS PARA FORMULARIOS DE BÚSQUEDA*************************************/
+.form_bus4
+{
+	width:820px;
+	height: 213px;
+	margin: 25px auto;
+	display:block;
+	border-radius:20px 20px 20px 20px;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/**************************************ESTILOS PARA FORMULARIOS DE REGISTRO*************************************/
+.form_reg_doc
+{
+	width:650px;
+	height: 530px;
+	margin: 200px auto;
+	display:block;
+	border-radius:20px 20px 20px 20px;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/**************************************ESTILOS PARA FORMULARIOS DE REGISTRO*************************************/
+.form_reg_men
+{
+	width:650px;
+	height: 260px;
+	margin: 250px auto;
+	display:block;
+	border-radius:20px 20px 20px 20px;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/**************************************ESTILOS PARA FORMULARIOS DE REGISTRO*************************************/
+.form_reg_usu
+{
+	width:650px;
+	height: 413px;
+	margin: 250px auto;
+	display:block;
+	border-radius:20px 20px 20px 20px;
+	border:1px solid rgba(0,0,0,.8);
+}
+
+/*********************************************ESTILOS PARA FORMULARIOS*****************************************/
+.formulario
+{
+	margin:200px auto;
+	float:left;
+}
+
+/********************************************ESTILOS PARA EL FOOTER********************************************/
+.footer
+{
+	width:100%;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	
+	background: #8b8b8b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:18px;
+	text-align:center;
+	position: relative;
+}
+
+/**********************************ESTILOS PARA SECCIÓN PRINCIPAL DEL SISTEMA***********************************/
+#general
+{
+	width: 990px;
+	height: 1204px;
+	margin: 50px auto;
+	background-color: #FFF;
+	box-shadow: 0px 0px 20px #000;
+}
+
+/**************************************ESTILOS PARA TÍTULOS GRANDES*************************************/
+.h2
+{
+	margin:20px 0px 2px 50px;
+	position:relative;
+	width:90%;
+	height: 31px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#797979;
+	font-size:22px;
+	text-align:left;
+	font-weight:bold;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-block
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-blocked
+{
+	color:#797979;
+	font-size:17px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:11px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-cancel
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-cancel2
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 22px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-cancel-circle
+{
+	margin-top:5px;
+	margin-right: 10px;
+	color: #fff;
+	font-size: 20px;
+	position:relative;
+	display:inline-block;
+	float:right;
+	
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-calendar
+{
+	margin-right:4px;
+	margin-left:10px;
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-checkmark
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-checkmark2
+{
+	margin-right:5px;
+	margin-left:-5px;
+	color: #797979;
+	font-size: 20px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-colours
+{
+	margin-right: 5px;
+	margin-left:11px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-cross
+{
+	color:#797979;
+	font-size:17px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:5px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-domain
+{
+	margin-right: 5px;
+	margin-left:11px;
+	color:#797979;
+	font-size:22px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-done_all
+{
+	margin-left:10px;
+	color:#797979;
+	font-size:24px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-envelope
+{
+	margin-right: 5px;
+	margin-left: 13px;
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-eye
+{
+	color:#797979;
+	font-size:17px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:5px;
+
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-facebook2
+{
+	color:#797979;
+	font-size:15px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-filter_1
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-filter_2
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-filter_3
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-filter_4
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-filter_5
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-flag
+{
+	margin-right: 3px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-graduate
+{
+	margin-right: 1px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-highlight_off
+{
+	margin-top:5px;
+	margin-right: 10px;
+	color: #fff;
+	font-size: 20px;
+	position:relative;
+	display:inline-block;
+	float:right;
+	
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-home2
+{
+	color:#fff;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-key
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-key2
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-label
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-layers
+{
+	margin-right: 5px;
+	margin-left:11px;
+	color:#797979;
+	font-size:20px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-library
+{
+	margin-right: 5px;
+	margin-left:11px;
+	color:#797979;
+	font-size:20px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-lock
+{
+	color:#797979;
+	font-size:17px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:0px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-lock-rounded2
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 27px;
+	bottom:8px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-lock-rounded-open2
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:8px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-looks_one
+{
+	color:#797979;
+	font-size:22px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:5px;
+	margin-left:-5px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-looks_two
+{
+	color:#797979;
+	font-size:22px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:5px;
+	margin-left:-5px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-looks_3
+{
+	color:#797979;
+	font-size:22px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:5px;
+	margin-left:-5px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-looks_4
+{
+	color:#797979;
+	font-size:22px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:5px;
+	margin-left:-5px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-looks_5
+{
+	color:#797979;
+	font-size:22px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:5px;
+	margin-left:-5px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-magnifier
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-mail
+{
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-man-woman
+{
+	margin-right: 5px;
+	margin-left: 12px;
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-price-tags
+{
+	margin-right: 2px;
+	margin-left: 12px;
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-map
+{
+	margin-right: 2px;
+	margin-left:9px;
+	color:#797979;
+	font-size:21px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-map2
+{
+	margin-right: 5px;
+	margin-left: 10px;
+	color:#797979;
+	font-size:18px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-map4
+{
+	margin-right: 2px;
+	margin-left: 12px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-map-signs
+{
+	margin-right: 2px;
+	margin-left:9px;
+	color:#797979;
+	font-size:21px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-paperclip
+{
+	margin-right: 5px;
+	margin-left:11px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-pencil
+{
+	color:#797979;
+	font-size:17px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:11px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-phone
+{
+	margin-right: 2px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-plus2
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 22px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-printer-text2
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-redo2
+{
+	margin-left:-5px;
+	color: #797979;
+	font-size: 20px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-search
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 20px;
+	position:relative;
+	display:inline-block;
+
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-sort-numerically-outline
+{
+	margin-left:10px;
+	color:#797979;
+	font-size:22px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-spell-check
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-stats-dots
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:20px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-trophy
+{
+	margin-right: 5px;
+	margin-left: 12px;
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-unlocked
+{
+	color:#797979;
+	font-size:17px;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	margin-right:0px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-user
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:21px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-user6
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-user-plus
+{
+	margin-right:10px;
+	color: #797979;
+	font-size: 24px;
+	bottom:10px;
+	position:relative;
+	display:inline-block;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-user-tie
+{
+	margin-right: 5px;
+	margin-left: 12px;
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-users
+{
+	margin-right: 5px;
+	margin-left:10px;
+	color:#797979;
+	font-size:19px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-users3
+{
+	margin-right: 1px;
+	margin-left:10px;
+	color:#797979;
+	font-size:22px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.icon-whatsapp
+{
+	color:#797979;
+	font-size:17px;
+}
+
+/**************************************ESTILOS ESPECÍFICOS PARA ÍCONOS*************************************/
+.iconos_principales
+{
+	margin:220px 50px 2px 50px;
+	text-align:right;
+	border-bottom:2px solid #8b8b8b;
+	position:relative;
+}
+
+/**************************************ESTILOS PARA IMAGEN EN PAGINA PRINCIPAL**********************************/
+.imagen
+{
+	background-image: url("../imagenes/sgteg.bmp");
+	background-size:638px 440px;
+	width:480px;
+	height:282px;
+	margin:261px auto;
+	display:block;
+	padding:80px;
+	opacity: 0.6;
+}
+
+/**************************************ESTILOS PARA IMAGEN DE CONTACTO*************************************/
+.img_contacto
+{
+	margin-left:50px; 
+	height: 170px;
+	width: 170px;
+	background-image: url("../imagenes/contacto.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size:120px 120px;
+}
+
+.manual
+{
+	margin-left:50px; 
+	height: 170px;
+	width: 170px;
+	background-image: url("../imagenes/manual.pdf");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size:120px 120px;
+}
+/**************************************ESTILOS PARA IMAGEN DE LOCALIZACIÓN*************************************/
+.img_localizacion
+{
+	margin: 0px 0px 0px 180px;
+	height: 340px;
+	width: 610px;
+	background-image: url("../imagenes/ubicacion.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size:620px 350px;
+}
+
+/**********************************ESTILOS PARA LA IMAGEN DEL TITULO DE PAGINA*********************************/
+.inicio
+{
+	background-image: url("../imagenes/inicio.png");
+	width:96px;
+	height:96px;
+
+	margin:200px 100px;
+	display:block;
+	padding:80px;
+	float:left;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.input
+{
+	margin:auto;
+	outline: none;
+	padding: 0px 20px;
+	width: 380px;
+	height: 40px;
+	border-color: rgba(0,0,0,.5);
+	border-radius:50px;
+	display: block;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.input1
+{
+	margin:0px;
+	width: 440px;
+	height: 28px;
+	border-color: rgba(0,0,0,.5);
+	border-radius:50px;
+	display: block;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.input2
+{
+	margin:0px 0px 10px 0px;
+	width: 465px;
+	height: 32px;
+	border: 2px solid rgba(0,0,0,.5);
+	border-radius:50px;
+	display: block;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:22px;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.input3
+{
+	margin:0px;
+	width: 340px;
+	height: 28px;
+	border-color: rgba(0,0,0,.5);
+	border-radius:50px;
+	display: block;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:22px;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.input4
+{
+	margin:0px;
+	width: 350px;
+	height: 28px;
+	border-color: rgba(0,0,0,.5);
+	border-radius:50px;
+	display:block;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.input5
+{
+	margin:0px 0px 10px 0px;
+	width: 373px;
+	height: 32px;
+	border: 2px solid rgba(0,0,0,.5);
+	border-radius:50px;
+	display: block;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:22px;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.input6
+{
+	margin:0px;
+	width: 350px;
+	height: 228px;
+	border-color: rgba(0,0,0,.5);
+	border-radius:50px;
+	display:block;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+}
+
+/**************************************ESTILOS PARA IMAGEN EN ORGANIGRAMA*************************************/
+.organigrama
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	height: 480px;
+	width: 990px;
+	padding: 0px;
+	background-image: url("../imagenes/organigrama.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:900px 480px;
+}
+
+/**************************************ESTILOS PARA IMAGEN EN ORGANIGRAMA*************************************/
+.organigrama_depar
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	height: 500px;
+	width: 990px;
+	padding: 0px;
+	background-image: url("../imagenes/organigrama_depar.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:900px 480px;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p
+{
+	margin:0px 10px 0px 0px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:22px;
+	text-decoration:none;
+	text-align:center;
+	display:inline-block;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p2{
+	margin: auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:22px;
+	text-decoration:none;
+	text-align:left;
+	display:table-cell;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p3
+{
+	margin: auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:22px;
+	text-decoration:none;
+	text-align:right;
+	display:table-cell;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p4
+{
+	margin:0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:22px;
+	text-decoration:none;
+	text-align:center;
+	display: block;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p5
+{
+	margin:0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:20px;
+	text-decoration:none;
+	text-align:right;
+	display: block;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_center
+{
+	margin:3px 0px 0px 0px;
+	width:700px;
+	height:31px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:18px;
+	text-decoration:none;
+	text-align:center;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_caracteristica
+{
+	margin:10px 10px 0px 50px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	width:90%;
+	color:#6a6a6a;
+	font-size:21px;
+	text-decoration:none;
+	text-align:justify;
+	display:inline-block;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_fila
+{
+	margin: 3px 0px 3px 50px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:22px;
+	width:87%;
+	height: 31px;
+	text-align:left;
+	color:#797979;
+	text-decoration:none;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	border:none;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_italic
+{
+	margin:10px 0px 0px 0px;
+	text-align:center;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#6b6b6b;
+	font-size: 20px;
+	font-style:italic;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_left
+{
+	margin:3px 0px 0px 0px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:22px;
+	text-decoration:none;
+	text-align:left;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_left2
+{
+	margin:3px 0px 0px 0px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#6b6b6b;
+	font-size:20px;
+	text-decoration:none;
+	text-align:left;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_mostrar
+{
+	margin: 50px 0px 3px 50px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:22px;
+	width:89%;
+	height: 270px;
+	text-align:left;
+	color:#797979;
+	text-decoration:none;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	border:2px #6a6a6a solid;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_mostrar_text
+{
+	margin: 50px 0px 3px 50px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:22px;
+	width:89%;
+	height: 405px;
+	text-align:left;
+	color:#797979;
+	text-decoration:none;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	border:2px #6a6a6a solid;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_red
+{
+	margin:7px 0px 7px 278px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#FF0000;
+	font-size:12px;
+	text-decoration:none;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_red1
+{
+	margin:0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#FF0000;
+	font-size:14px;
+	text-decoration:none;
+	text-align:center;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_red2
+{
+	margin:7px 0px 7px 370px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#FF0000;
+	font-size:12px;
+	text-decoration:none;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_red3
+{
+	margin:7px 0px 7px 380px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#FF0000;
+	font-size:12px;
+	text-decoration:none;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_right
+{
+	margin:3px 10px 0px 15px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#000;
+	font-size:22px;
+	text-decoration:none;
+	text-align:right;
+}
+
+/*******************************************ESTILOS PARA PLACEHOLDER*******************************************/
+.placeholder
+{
+	margin:auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:rgba(0,0,0,0.9);
+	font-size:20px;
+}
+
+/*******************************************ESTILOS PARA PLACEHOLDER*******************************************/
+.placeholder2
+{
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:rgba(0,0,0,0.8);
+	font-size:22px;
+}
+
+/********************************************ESTILOS PARA TEXTOS***********************************************/
+.p_text
+{
+	margin:3px 20px 0px 20px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#6a6a6a;
+	font-size:21px;
+	text-decoration:none;
+	text-align:justify;
+	display:inline-block;
+}
+
+/********************************************ESTILOS PARA RELOJ***********************************************/
+#reloj
+{
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:21px;
+	float:none;
+	text-align:left;
+	color:#000;
+	font-weight:bold;
+}
+
+/********************************************ESTILOS PARA FECHA***********************************************/
+#fecha
+{
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:21px;
+	margin-top:-865px;
+	float:none;
+	text-align:left;
+	margin-left: 600px;
+	color:#000;
+	font-weight:bold;
+}
+
+/********************************************ESTILOS PARA SELECCIÓN*********************************************/
+#seleccione
+{
+	margin: 0px auto;
+	width: 45px;
+	height: 40px;
+	color: #fff;
+	display:table-cell;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table1
+{
+	margin: auto;
+	width:480px;
+	height:270px;
+	display:block;
+	border-radius:0px 0px 20px 20px;
+	border:1px solid  rgba(0,0,0,.8);
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table2
+{
+	width:650px;
+	height: 31px;
+	margin: 0px auto;
+	display:block;
+	border-radius:0px 0px 20px 20px;
+	color: #fff;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table3
+{
+	width:650px;
+	height: 31px;
+	margin: 0px auto;
+	display:block;
+	color: #fff;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table_fila
+{
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:18px;
+	width:90%;
+	height: 31px;
+	text-align:center;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table_fila2
+{
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	font-size:18px;
+	width:90%;
+	height: 31px;
+	text-align:center;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table_mostrar2
+{
+	margin:30px auto;
+	width:90%;
+	height: 31px;
+	border:1px solid #797979;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table_mostrar
+{
+	margin:30px auto;
+	width:90%;
+	height: 31px;
+	border:1px solid #797979;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+table{
+	border-collapse: collapse;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table_mostrar td {
+	border-collapse: collapse;
+	border: none;
+	border-bottom: 1px solid #797979; 
+	padding: 10px;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table_mostrar th 
+{
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+/********************************************ESTILOS PARA TABLAS***********************************************/
+.table_titulo
+{
+	width:100%;
+	height: 31px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:20px;
+	text-align:center;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td
+{
+	margin: auto;
+	width: 476px;
+	height: 40px;
+	color: #fff;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_caja
+{
+	margin: 0px 0px 0px 150px;
+	width: 200px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_caja_2
+{
+	margin: 40px 0px 0px 210px;
+	width: 200px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_caja_3
+{
+	margin: 0px 0px 0px 250px;
+	width: 10px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_caja_4
+{
+	margin: 0px 0px 0px 270px;
+	width: 10px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_corto
+{
+	margin: 0px auto;
+	width: 25px;
+	height: 40px;
+	color: #fff;
+	display:table-cell;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_titulo
+{
+	margin: 0px auto;
+	width: 200px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:absolute;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_titulo_2
+{
+	margin: 40px auto;
+	width: 200px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:absolute;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_titulo3
+{
+	margin: 0px auto;
+	width: 230px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:absolute;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.td_titulo4
+{
+	margin: 0px auto;
+	width: 260px;
+	height: 30px;
+	color: #fff;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	position:absolute;
+}
+
+/***************************************ESTILOS PARA SECCIONES DE TABLA***************************************/
+.titulo
+{
+	width:100%;
+	height: 31px;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo1
+{
+	width:100%;
+	height: 31px;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo2
+{
+	width:650px;
+	height: 31px;
+	margin: 0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo3
+{
+	width:610px;
+	height: 31px;
+	margin: 0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo4
+{
+	width:540px;
+	height: 31px;
+	margin: 0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo5
+{
+	width:640px;
+	height: 31px;
+	margin: 0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo6
+{
+	width:800px;
+	height: 31px;
+	margin: 0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo7
+{
+	width:820px;
+	height: 31px;
+	margin: 0px auto;
+	font-family:"Times New Roman",Helvetica, sans-serif;color:#fff;
+	background: #8b8b8b; /* Old browsers */
+	
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+
+	border-bottom:1px solid #555555;
+	font-size:24px;
+	text-align:center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+/********************************************ESTILOS PARA TÍTULOS***********************************************/
+.titulo_sencillo
+{
+	margin:0px 50px 2px 50px;
+	border-bottom:2px solid #8b8b8b;
+	position:relative;
+	width:90%;
+	height: 31px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#797979;
+	font-size:22px;
+	text-align:center;
+	font-weight:bold;
+}
+
+/********************************************ESTILOS PARA CELDAS DE LAS TABLAS***********************************************/
+.tr
+{
+	width:700px;
+	height:31px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+/********************************************ESTILOS PARA CELDAS DE LAS TABLAS***********************************************/
+.td
+{
+	margin-top:-30px;
+	margin-bottom: 5px;
+	margin-left: 280px;
+}
+
+/********************************************ESTILOS PARA CELDAS DE LAS TABLAS***********************************************/
+.td_2
+{
+	margin-top:-44px;
+	margin-bottom: 10px;
+	margin-left: 670px;
+}
+
+/********************************************ESTILOS PARA CELDAS DE LAS TABLAS***********************************************/
+.td_botom
+{
+	margin-top:-25px;
+	margin-bottom: 10px;
+	margin-left: 700px;
+}
+
+/********************************************ESTILOS PARA CELDAS DE LAS TABLAS***********************************************/
+#parti2,#parti21,#parti22,#parti23,#parti24,#parti25,#parti26,#parti27,#parti28,#parti29,.parti3{display: none;}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+#mas input
+{
+	margin:0px;
+	width: 350px;
+	height: 28px;
+	border-color: rgba(0,0,0,.5);
+	border-radius:50px;
+	outline: none;
+	padding: 0px 0px 0px 20px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:rgba(0,0,0,0.8);
+	font-size:22px;
+}
+
+/**************************************ESTILOS PARA INPUT DE FORMULARIOS*************************************/
+.inp
+{
+	width:80px;
+	height: 40px;
+	font-family:"Times New Roman",Helvetica, sans-serif;
+	color:#fff;
+	background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 52%, #717171 100%); 
+	background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 52%,#717171 100%); 
+	font-size:17px;
+	text-decoration:none;
+	padding: 5px 7px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.6);
+	border-radius:50px;
+	display:inline-block;
+	outline: none;
+}
+
+.inp:hover
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.8);
+	color:#fff;
+}
+
+.inp:active
+{
+	text-decoration:none;
+	background:rgba(0,0,0,.3);
+	box-shadow:inset 0px 3px 2px rgba(0,0,0,1);
+	color:#fff;
+}
+
+nav::-webkit-scrollbar
+{
+  width: 5px;
+  background: transparent;
+}
+nav::-webkit-scrollbar-button
+{
+	height: 200px;
+}
+nav::-webkit-scrollbar-track
+{
+	background: transparent;
+}
+nav::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0,0,0,0.5);
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+nav::-webkit-scrollbar-thumb:hover
+{
+	background-color: rgba(100,0,0,0.4);
+}
+
